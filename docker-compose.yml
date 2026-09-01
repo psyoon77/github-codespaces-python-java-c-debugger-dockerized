@@ -1,0 +1,17 @@
+services:
+  cs-project-docker:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    stdin_open: true
+    tty: true
+    init: true
+    restart: unless-stopped
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
+    command: tail -f /dev/null
+    cap_add:
+      - SYS_PTRACE
+    security_opt:
+      - seccomp:unconfined

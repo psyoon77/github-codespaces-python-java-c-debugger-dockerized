@@ -1,0 +1,22 @@
+codespace
+
+0 zoom screen share + remote + clipboard sharing enabled
+1 from codespace - main of the github repository
+2 shift + command + x
+3 live share
+4 install live share - microsoft
+(already signed in with the github account)
+8 shift + command + p
+9 type live share: start collaboration session (share)
+10 shift + command + p
+11 type live share: copy collaboration link
+12 send the link
+13 paste the link at a web browser - better to open in vs code ide
+14 command (or control) + shift + p
+15 type live share: share terminal
+
+
+code space
+command (or control) + shift + p
+type codespaces: rebuild container
+choose rebuild or full rebuild
